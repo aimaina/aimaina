@@ -3,6 +3,11 @@ module.exports = async (client, msg) => {
         return;
     }
 
+    if (msg.content.toLowerCase() === 'f') {
+        const member = await msg.guild.members.fetch(msg.author);
+        return msg.channel.send(`${member.nickname || msg.author.username} has paid their respects.`);
+    }
+
     const prefixMention = new RegExp(`^<@!?${client.user.id}> `);
     const prefix = msg.content.match(prefixMention) ? msg.content.match(prefixMention)[0] : client.config.prefix;
     if (msg.content.indexOf(prefix) !== 0) {
