@@ -1,0 +1,11 @@
+# Directories
+logs/
+.idea/
+.vscode/
+pinocchiop/
+node_modules/
+
+# Files
+yarn.lock
+config.json
+package-lock.json
