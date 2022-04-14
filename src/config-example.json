@@ -1,5 +1,6 @@
 {
     "prefix": "ai ",
     "token": "",
-    "owners": [""]
+    "owners": [""],
+    "welcome_channel": ""
 }

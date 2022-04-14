@@ -1,0 +1,50 @@
+[
+    {
+        "name": "meimei",
+        "emotes": {
+            "pog": "<:meioh:606212179896827911>",
+            "win": "<:meithis:579638093204946964>",
+            "sad": "<:meicry:763133467290107924>"
+        }
+    },
+    {
+        "name": "miku",
+        "emotes": {
+            "pog": "<:ooh:603226956733087744>",
+            "win": "<:mikuhappy:763131440711073843>",
+            "sad": "<:mikupensive:736346307123216484>"
+        }
+    },
+    {
+        "name": "pinocchiop",
+        "emotes": {
+            "pog": "<:pinopog2:783772436940062752>",
+            "win": "<:pinocchiopsmile:700680276489273434>",
+            "sad": "<:pinodisappointed:776144954392838174>"
+        }
+    },
+    {
+        "name": "daihakken",
+        "emotes": {
+            "pog": "<:daihakkenstare:764606299026620436>",
+            "win": "<:daihakkenblush:773204729479299123>",
+            "sad": "<:daihakkencry:762737406071144468>"
+        }
+    },
+    {
+        "name": "aimaina",
+        "emotes": {
+            "pog": "<:aimaina:564367237721620480>",
+            "win": "<:aimainaparty:564363881770647603>",
+            "sad": "<:aimainafloor:564363881921642497>"
+        }
+    },
+    {
+        "name": "doushite",
+        "emotes": {
+            "pog": "<:doushitechan2:603232483634577413>",
+            "win": "<:doushitechanblush:603233690306347011>",
+            "sad": "<:doushitechanfloor:603231060959952896>"
+        }
+    }
+]

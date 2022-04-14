@@ -2,7 +2,6 @@
 logs/
 .idea/
 .vscode/
-pinocchiop/
 node_modules/
 
 # Files
