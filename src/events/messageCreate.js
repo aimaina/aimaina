@@ -16,6 +16,10 @@ module.exports = async (client, msg) => {
         return;
     }
 
+    if (command.ownerOnly && !client.config.owners.includes(msg.author.id)) {
+        return;
+    }
+
     try {
         client.log.info('Attempting to run cmd ' + command.name + ' (ran by ' + msg.author.id + ')');
         command.execute(client, msg, args);

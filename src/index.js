@@ -5,6 +5,7 @@ const { DisTube } = require('distube');
 const { YtDlpPlugin } = require('@distube/yt-dlp');
 const { SpotifyPlugin } = require('@distube/spotify');
 const { SoundCloudPlugin } = require('@distube/soundcloud');
+const StarboardsManager = require('discord-starboards');
 
 const client = new Client({
     partials: ['MESSAGE', 'CHANNEL', 'REACTION'], 
@@ -30,6 +31,7 @@ client.distube = new DisTube(client, {
     ],
     youtubeDL: false
 });
+client.starboard = new StarboardsManager(client);
 ['aliases', 'commands'].forEach((x) => (client[x] = new Collection()));
 
 const init = async () => {
