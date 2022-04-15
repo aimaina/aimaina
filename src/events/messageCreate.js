@@ -30,6 +30,6 @@ module.exports = async (client, msg) => {
         command.execute(client, msg, args);
     } catch (err) {
         client.log.error(err);
-        return msg.channel.send("```" + err + "```");
+        return msg.channel.send('```' + err + '```');
     }
 };

@@ -87,7 +87,7 @@ client.distube.on('finish', (queue) => {
 
 client.distube.on('error', (channel, err) => {
     client.log.error(err);
-    channel.send("```" + err + "```");
+    channel.send('```' + err + '```');
 });
 
 client.login(client.config.token);
