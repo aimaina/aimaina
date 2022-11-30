@@ -6,6 +6,7 @@ const { YtDlpPlugin } = require('@distube/yt-dlp');
 const { SpotifyPlugin } = require('@distube/spotify');
 const { SoundCloudPlugin } = require('@distube/soundcloud');
 const StarboardsManager = require('discord-starboards');
+const { GiveawaysManager } = require('discord-giveaways');
 
 const client = new Client({
     partials: ['MESSAGE', 'CHANNEL', 'REACTION'], 
@@ -32,6 +33,16 @@ client.distube = new DisTube(client, {
     youtubeDL: false
 });
 client.starboard = new StarboardsManager(client);
+client.giveawaysManager = new GiveawaysManager(client, {
+    storage: './giveaways.json',
+    updateCountdownEvery: 5000,
+    default: {
+        botsCanWin: false,
+        embedColor: '#FF0000',
+        reaction: '🎉'
+    }
+});
+
 ['aliases', 'commands'].forEach((x) => (client[x] = new Collection()));
 
 const init = async () => {
