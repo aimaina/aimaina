@@ -20,5 +20,7 @@ jobs:
             rm pnpm-lock.yaml
             git checkout .
             git pull
+            export NVM_DIR=~/.nvm
+            source ~/.nvm/nvm.sh
             pnpm install
             pm2 restart Aimaina
