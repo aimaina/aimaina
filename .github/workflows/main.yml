@@ -16,7 +16,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           script: |
-            cd bots/aimaina
+            cd ~/bots/aimaina
             rm pnpm-lock.yaml
             git checkout .
             git pull
