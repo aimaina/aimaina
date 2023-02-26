@@ -5,11 +5,11 @@ module.exports = {
   ownerOnly: true,
   aliases: ['createback', 'backup'],
   async execute(client, msg, _args) {
-    const backupID = await client.backup.create(msg.guild, {
+    const backup = await client.backup.create(msg.guild, {
       maxMessagesPerChannel: 99999999,
       jsonBeautify: true,
       saveImages: 'base64',
     });
-    msg.channel.send(`Backup created! Backup ID: ${backupID}`);
+    msg.channel.send(`Backup created! Backup ID: ${backup.id}`);
   },
 };
