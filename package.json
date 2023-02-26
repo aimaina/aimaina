@@ -22,6 +22,7 @@
     "discord-giveaways": "^4.5.1",
     "discord-starboards": "^2.3.2",
     "discord.js": "13.12.0",
+    "discord.js-akinator": "^4.0.4",
     "distube": "^3.3.4",
     "leekslazylogger": "4.1.7",
     "ms": "^2.1.3",
