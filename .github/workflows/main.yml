@@ -19,7 +19,7 @@ jobs:
         with:
           host: ${{ secrets.IP }}
           username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.KEY }}
+          password: ${{ secrets.PASSWORD }}
           script: |
             cd bots/aimaina
             git checkout .
