@@ -2,6 +2,7 @@
 logs/
 .idea/
 .vscode/
+backups/
 .history/
 node_modules/
 

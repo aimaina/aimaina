@@ -42,6 +42,8 @@ client.giveawaysManager = new GiveawaysManager(client, {
     reaction: '🎉',
   },
 });
+client.backup = require('discord-backup');
+client.backup.setStorageFolder(__dirname + '/backups/');
 
 ['aliases', 'commands'].forEach((x) => (client[x] = new Collection()));
 
