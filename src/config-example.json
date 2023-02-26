@@ -1,6 +1,6 @@
 {
-    "prefix": "ai ",
-    "token": "",
-    "owners": [""],
-    "welcome_channel": ""
+  "prefix": "ai ",
+  "token": "",
+  "owners": [""],
+  "welcome_channel": ""
 }

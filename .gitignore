@@ -2,6 +2,7 @@
 logs/
 .idea/
 .vscode/
+.history/
 node_modules/
 
 # Files
